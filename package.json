@@ -1,0 +1,47 @@
+{
+  "name": "@me9rez/node-mbtiles",
+  "version": "0.0.1",
+  "description": "一个用于读写MBTiles格式地图瓦片数据库的Node.js库",
+  "type": "module",
+  "exports": {
+    ".": {
+      "types": "./dist/index.d.ts",
+      "import": "./dist/index.js"
+    }
+  },
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "test": "vitest run",
+    "build": "rslib build"
+  },
+  "keywords": [
+    "mbtiles",
+    "map tiles",
+    "geospatial",
+    "sqlite"
+  ],
+  "author": "me9rez <1516544795@qq.com>",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/me9rez/node-mbtiles.git"
+  },
+  "bugs": {
+    "url": "https://github.com/me9rez/node-mbtiles/issues"
+  },
+  "homepage": "https://github.com/me9rez/node-mbtiles#readme",
+  "engines": {
+    "node": ">=22.5.0"
+  },
+  "devDependencies": {
+    "@microsoft/api-extractor": "^7.51.1",
+    "@rslib/core": "^0.5.3",
+    "@types/node": "^22.13.10",
+    "tinyglobby": "^0.2.12",
+    "tsx": "^4.19.3",
+    "typescript": "^5.8.2",
+    "vitest": "^3.0.8"
+  }
+}
