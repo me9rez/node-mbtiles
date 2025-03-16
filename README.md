@@ -1,4 +1,7 @@
-# @me9rez/node-mbtiles
+# @deepgis/node-mbtiles
+
+[![npm version](https://img.shields.io/npm/v/@deepgis/node-mbtiles?color=red)](https://npmjs.com/package/@deepgis/node-mbtiles)
+[![npm downloads](https://img.shields.io/npm/dm/@deepgis/node-mbtiles?color=yellow)](https://npm.chart.dev/vue)
 
 一个用于读写MBTiles格式地图瓦片数据库的Node.js库。
 
@@ -19,13 +22,13 @@
 使用pnpm安装：
 
 ```bash
-pnpm add @me9rez/node-mbtiles
+pnpm add @deepgis/node-mbtiles
 ```
 
 ## 使用示例
 
 ```ts
-import { MBTiles } from '@me9rez/node-mbtiles';
+import { MBTiles } from '@deepgis/node-mbtiles';
 
 // 打开MBTiles文件
 const mbtiles = new MBTiles('path/to/database.mbtiles');
@@ -68,7 +71,7 @@ pnpm test
 
 - TypeScript
 - SQLite
-- Vitest (测试框架)
+- Vitest
 
 
 

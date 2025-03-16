@@ -1,6 +1,6 @@
 {
-  "name": "@me9rez/node-mbtiles",
-  "version": "0.0.1",
+  "name": "@deepgis/node-mbtiles",
+  "version": "0.0.0",
   "description": "一个用于读写MBTiles格式地图瓦片数据库的Node.js库",
   "type": "module",
   "exports": {
@@ -36,9 +36,10 @@
     "node": ">=22.5.0"
   },
   "devDependencies": {
-    "@microsoft/api-extractor": "^7.51.1",
-    "@rslib/core": "^0.5.3",
+    "@microsoft/api-extractor": "^7.52.1",
+    "@rslib/core": "^0.5.4",
     "@types/node": "^22.13.10",
+    "release-it": "^18.1.2",
     "tinyglobby": "^0.2.12",
     "tsx": "^4.19.3",
     "typescript": "^5.8.2",
