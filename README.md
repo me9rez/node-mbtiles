@@ -1,7 +1,7 @@
 # @deepgis/node-mbtiles
 
 [![npm version](https://img.shields.io/npm/v/@deepgis/node-mbtiles?color=red)](https://npmjs.com/package/@deepgis/node-mbtiles)
-[![npm downloads](https://img.shields.io/npm/dm/@deepgis/node-mbtiles?color=yellow)](https://npm.chart.dev/vue)
+[![npm downloads](https://img.shields.io/npm/dm/@deepgis/node-mbtiles?color=yellow)](https://npm.chart.dev/@deepgis/node-mbtiles)
 
 一个用于读写MBTiles格式地图瓦片数据库的Node.js库。
 
