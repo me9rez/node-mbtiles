@@ -1,6 +1,6 @@
 {
   "name": "@deepgis/node-mbtiles",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "一个用于读写MBTiles格式地图瓦片数据库的Node.js库",
   "keywords": [
     "mbtiles",
