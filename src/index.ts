@@ -9,7 +9,7 @@ export class MBTiles {
     constructor(location: string, options?: DatabaseSyncOptions) {
         this._db = new DatabaseSync(location, options ?? {});
         const scheme = readFileSync(
-            path.join(import.meta.dirname, "./schema.sql"),
+            path.join(import.meta.dirname, "../sql/schema.sql"),
             {
                 encoding: "utf-8",
             },

@@ -7,7 +7,7 @@ class MBTiles {
     _db;
     constructor(location, options){
         this._db = new __WEBPACK_EXTERNAL_MODULE_node_sqlite_33145763__.DatabaseSync(location, options ?? {});
-        const scheme = (0, __WEBPACK_EXTERNAL_MODULE_fs__.readFileSync)(__WEBPACK_EXTERNAL_MODULE_node_path_c5b9b54f__["default"].join(import.meta.dirname, "./schema.sql"), {
+        const scheme = (0, __WEBPACK_EXTERNAL_MODULE_fs__.readFileSync)(__WEBPACK_EXTERNAL_MODULE_node_path_c5b9b54f__["default"].join(import.meta.dirname, "../sql/schema.sql"), {
             encoding: "utf-8"
         });
         this._db.exec(scheme);

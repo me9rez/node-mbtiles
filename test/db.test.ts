@@ -2,7 +2,7 @@ import { assert, beforeAll, describe, it } from "vitest";
 import path from "path";
 import fs from "fs/promises";
 import { glob } from "tinyglobby";
-import { MBTiles } from "../src";
+import { MBTiles } from "../dist";
 
 describe("mbtiles read and write test", () => {
     let dbPaths: string[] = [];
