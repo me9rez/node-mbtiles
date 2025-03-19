@@ -1,6 +1,7 @@
 import type { Config } from 'release-it';
 
 export default {
+  
   git: {
     commit: true,
     tag: true,

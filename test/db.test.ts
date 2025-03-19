@@ -21,7 +21,7 @@ describe("mbtiles read and write test", () => {
         for (const dbPath of dbPaths.slice(0, 1)) {
             console.log(dbPath);
             const db = new MBTiles(dbPath);
-            const info = db.getInfo() as Object;
+            const info = db.getInfo() as object;
             console.log(info);
         }
     });
@@ -61,10 +61,10 @@ describe("mbtiles read and write test", () => {
             await fs.copyFile(dbPath, dbPath2);
             const db = new MBTiles(dbPath);
             const db2 = new MBTiles(dbPath2);
-            const info = db.getInfo() as Object;
+            const info = db.getInfo() as object;
             info["test"] = "test";
             db2.putInfo(info);
-            const info2 = db2.getInfo() as Object;
+            const info2 = db2.getInfo() as object;
             console.log(info2);
             assert.deepEqual(info2, info);
         }

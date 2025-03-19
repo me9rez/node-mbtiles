@@ -63,7 +63,7 @@ export class MBTiles {
         }
         y = (1 << z) - 1 - y;
         const id = createHash("md5").update(data).digest("hex");
-        const coords = hash(z, x, y);
+        const _coords = hash(z, x, y);
         const stmt = this._db.prepare(
             "REPLACE INTO images (tile_id, tile_data) VALUES (?,?)",
         );

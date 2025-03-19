@@ -31,7 +31,9 @@
   ],
   "scripts": {
     "build": "rslib build",
-    "test": "vitest run"
+    "test": "vitest run",
+    "release": "release-it",
+    "prepublishOnly": "pnpm run build"
   },
   "devDependencies": {
     "@microsoft/api-extractor": "^7.52.1",
